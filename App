@@ -1,0 +1,16 @@
+package example;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		UrlLibrary urlLibrary = new UrlLibrary();
+		
+		for(String urls: urlLibrary) {
+			System.out.println(urls.length());
+			System.out.println(urls);
+		}
+		
+	}
+
+}
